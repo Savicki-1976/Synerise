@@ -1,0 +1,12 @@
+<?php
+namespace Savicki\Synerise\Api\Responses\Order;
+
+
+class Order implements \Savicki\Synerise\Api\Interfaces\Request
+{
+   public function prepare(): self
+   {
+       return $this;
+   }
+
+}

@@ -1,0 +1,8 @@
+/.idea/
+/vendor/
+/coverage/
+/.vscode/
+/.env
+composer.lock
+.phpunit.result.cache
+app.php

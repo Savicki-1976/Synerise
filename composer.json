@@ -1,0 +1,12 @@
+{
+    "name": "savicki/synerise",
+    "description": "Synerise API integration",
+    "autoload": {
+        "psr-4": {
+            "Savicki\\Synerise\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
