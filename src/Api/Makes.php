@@ -7,7 +7,7 @@ use Savicki\Synerise\Api\Entities;
 
 class Makes
 {
-    public function __construct(private Session $session)
+    public function __construct()
     {
             
     }

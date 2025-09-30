@@ -22,7 +22,7 @@ class ApiFactory
         $session = $this->sessionFactory->session($credentials);
 
         return new Gateway(
-            new Api\Makes($session),
+            new Api\Makes(),
             new Api\BagItems($session)
         );
     }
