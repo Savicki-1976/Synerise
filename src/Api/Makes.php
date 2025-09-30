@@ -2,7 +2,6 @@
 namespace Savicki\Synerise\Api;
 
 use Savicki\Synerise\Api\Collections\Collection;
-use Savicki\Synerise\Session;
 use Savicki\Synerise\Api\Entities;
 
 class Makes
