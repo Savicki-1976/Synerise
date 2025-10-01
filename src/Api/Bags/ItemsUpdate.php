@@ -2,9 +2,7 @@
 namespace Savicki\Synerise\Api\Bags;
 
 use Savicki\Synerise\Session;
-use Savicki\Synerise\Api\Responses;
 use Savicki\Synerise\Api\Interfaces;
-use Savicki\Synerise\Api\Entities\Bags\Item;
 use Savicki\Synerise\Api\Collections\Collection;
 use Savicki\Synerise\Api\Exceptions\TransportException;
 use Savicki\Synerise\Api\Helpers\HandleErrors;
