@@ -36,6 +36,12 @@ class Makes
         return new Entities\Bags\Item();
     }
 
+    public function event(): Entities\Event
+    {
+        return new Entities\Event();
+    }
+
+
     public function collection(): Collection
     {
         return new Collection();

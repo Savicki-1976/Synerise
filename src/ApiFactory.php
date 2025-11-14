@@ -23,7 +23,8 @@ class ApiFactory
 
         return new Gateway(
             new Api\Makes(),
-            new Api\BagItems($session)
+            new Api\BagItems($session),
+            new Api\Events($session)
         );
     }
 

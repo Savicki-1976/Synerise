@@ -11,7 +11,8 @@ class Gateway
 {
     public function __construct(
         private Api\Makes $makes,
-        private Api\BagItems $bagItems
+        private Api\BagItems $bagItems,
+        private Api\Events $events
     ) {
 
     }
@@ -24,5 +25,10 @@ class Gateway
     public function bagItems(): Api\BagItems
     {
         return $this->bagItems;
+    }
+
+    public function events(): Api\Events
+    {
+        return $this->events;
     }
 }

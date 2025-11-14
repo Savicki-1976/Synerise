@@ -7,10 +7,10 @@ use  Savicki\Synerise\Api\Interfaces;
 class Client extends Entity implements Interfaces\Entity
 {
 
-    private ?string $customId;
-    private ?int $id;
-    private ?string $uuid;
-    private ?string $email;
+    private ?string $customId = null;
+    private ?int $id = null;
+    private ?string $uuid = null;
+    private ?string $email ;
 
 
     public function setCustomId(?string $customId): self
